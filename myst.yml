@@ -1,0 +1,48 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 76c5a309-e3a3-482a-a1da-ac234d332022
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  # github: https://github.com/mk-umcs/pdpwjp
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: index.md
+    - title: Materiały
+      children:
+        - file: materialy/pixi-tutorial.md
+    - title: Zadania
+      children:
+        - file: zadania/01-wektorowe-odczyt.md
+        - file: zadania/02-wektorowe-zapis.md
+site:
+  template: book-theme
+  options:
+    logo_text: Programowanie danych przestrzennych w języku Python (geoinformatyka)
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
+
+
+  # toc:
+  #   - file: index.md
+  #   - title: Wykład
+  #     children:
+  #       - file: wyklad/01-klasy-obiekty/01-klasy-obiekty-wyklad.ipynb
+  #         title: Programowanie obiektowe — klasy, obiekty
+  #         children:
+  #           - file: wyklad/01-klasy-obiekty/01-podsumowanie.md
+  #             title: Podsumowanie
+  #           - file: wyklad/01-klasy-obiekty/01-odpowiedzi.md
+  #             title: Odpowiedzi do ćwiczeń
+  #           - file: wyklad/01-klasy-obiekty/01-materialy.md
+  #             title: Pliki do pobrania
+  #   - title: Zadania
+  #     children:
+  #       - file: zadania/zestaw-01/temperatury.md
+  #         title: Zestaw 1 — Zadania powtórzeniowe (listy, krotki, słowniki, wyjątki, pliki)
+  # static_files:
+  #   - zadania/zestaw-01/zestaw-01
+  #   - materialy/notebooki
+  #   - materialy/notebooki-pdf
