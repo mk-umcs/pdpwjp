@@ -6,7 +6,7 @@ Napisz program, który dla pobranej od użytkownika nazwy pliku (lub innego źr�
 
 (layers-geoms)=
 ## Zadanie 2 &mdash; nazwy warstw i typ geometrii
-Zmodyfikuj program z [poprzedniego zadania](#layers) tak, żeby wyświetlał też nazwę typu geometrii związanej z warstwą (np. `Point`, `Multi Polygon`, `Unknown`).
+Zmodyfikuj program z [poprzedniego zadania](#layers) tak, żeby wyświetlał też nazwę typu geometrii związanej z warstwą (np. `point`, `polygon`).
 
 (wojewodztwa-names)=
 ## Zadanie 3 &mdash; nazwy województw
@@ -50,7 +50,7 @@ Napisz program, który znajdzie w pliku `50m_cultural/ne_50m_populated_places.sh
 
 (rivers-by-letter)=
 ## Zadanie 11 &mdash; wyszukiwanie rzek po literze
-W pliku `rzeki_bieszczady/rzeki.shp` każda rzeka reprezentowana jest jako łamana (`Line String`). Nazwa rzeki znajduje się w polu `nazwa`. Napisz program wyświetlający nazwy wszystkich rzek, których nazwa zaczyna się na zadaną przez użytkownika literę.
+W pliku `rzeki_bieszczady/rzeki.shp` każda rzeka reprezentowana jest jako łamana (`LineString`). Nazwa rzeki znajduje się w polu `nazwa`. Napisz program wyświetlający nazwy wszystkich rzek, których nazwa zaczyna się na zadaną przez użytkownika literę.
 
 (largest-building)=
 ## Zadanie 12 &mdash; budynek o największej powierzchni
